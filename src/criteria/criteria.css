@@ -1,0 +1,105 @@
+.flex {
+    display: flex;
+}
+
+.mainContainer {
+    height:80vh;
+}
+
+.criteriaContainer {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.col {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleContainer {
+    border-bottom: 1px solid #acacac;
+}
+
+.title {
+    font-size: 2em;
+    color:#32c77c
+}
+
+.rightBorder {
+    border-right: 1px solid #acacac;
+}
+
+.criteriaRow {
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.itemTitle {
+    color: #5e5e5e;
+    overflow:hidden
+}
+
+.editIcon {
+    width: 24px;
+    height: 24px;
+    background: url("../images/edit.png") no-repeat center 100%;
+    cursor:pointer
+}
+
+.removeIcon {
+    width: 24px;
+    height: 24px;
+    background: url("../images/delete.png") no-repeat center 100%;
+    margin-left: 3px;
+    cursor:pointer
+}
+
+.editFormWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.editFormContainer {
+    height:250px;
+    width: 250px;
+    background-color:#fff;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top {
+    width: 90%;
+    padding-top:10px;
+    justify-content: flex-end;
+}
+
+.closeWindow {
+    width: 24px;
+    height: 24px;
+    background: url("../images/close.png") no-repeat center 100%;
+    cursor:pointer
+}
+
+.editForm {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px
+}
+
+.saveButton {
+    background-color: #32c77c;
+    color:#fff;
+    border:1px solid #32c77c;
+    cursor:pointer;
+    font-weight: bold
+}
